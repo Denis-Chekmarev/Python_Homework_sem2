@@ -4,9 +4,9 @@ find_str = 'worl'
 
 def count_substring(text: str, substring: str) -> int:
     amount = 0
-    for index in range(0, len(text)):
+    for index in range(len(text)):
         if text[index] == substring[0]:
-            for j in range(1, len(substring)):
+            for j in range(len(substring)):
                 try:
                     if substring[j] != text[index+j]:
                         flag = False
