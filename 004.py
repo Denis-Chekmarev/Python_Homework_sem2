@@ -2,7 +2,6 @@
 # Найдите произведение элементов на указанных позициях.
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
-from operator import mul
 from random import randint
 
 
